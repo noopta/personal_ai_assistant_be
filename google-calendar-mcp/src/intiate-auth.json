@@ -1,0 +1,21 @@
+PS C:\Users\anupt> Invoke-WebRequest -Uri "https://luciuslab.xyz:3005/initiate-auth" -Method POST -Body $body -ContentType "application/json"
+
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {"status":"auth_required","authUrl":"https://luciuslab.xyz:3002/","message":"Please visit the auth
+                    URL to authenticate"}
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Access-Control-Allow-Origin: *
+                    Access-Control-Allow-Methods: GET, POST, OPTIONS
+                    Access-Control-Allow-Headers: Content-Type, Accept, Authorization, x-api-key,...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [Access-Control-Allow-Origin, *], [Access-Control-Allow-Methods, GET,
+                    POST, OPTIONS], [Access-Control-Allow-Headers, Content-Type, Accept, Authorization, x-api-key,
+                    Mcp-Session-Id, x-prefer-streaming]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 120

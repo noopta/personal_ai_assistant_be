@@ -1,0 +1,20 @@
+PS C:\Users\anupt> Invoke-WebRequest -Uri "https://luciuslab.xyz:3005/checkCalendarStatus" -Method POST -Body $body -ContentType "application/json"                                                                                             
+
+StatusCode        : 200
+StatusDescription : OK
+Content           : {"status":true,"expired":false,"expiryDate":"2025-09-04T00:12:52.953Z","timeUntilExpiry":2501462}
+RawContent        : HTTP/1.1 200 OK
+                    Connection: keep-alive
+                    Access-Control-Allow-Origin: *
+                    Access-Control-Allow-Methods: GET, POST, OPTIONS
+                    Access-Control-Allow-Headers: Content-Type, Accept, Authorization, x-api-key,...
+Forms             : {}
+Headers           : {[Connection, keep-alive], [Access-Control-Allow-Origin, *], [Access-Control-Allow-Methods, GET,
+                    POST, OPTIONS], [Access-Control-Allow-Headers, Content-Type, Accept, Authorization, x-api-key,
+                    Mcp-Session-Id, x-prefer-streaming]...}
+Images            : {}
+InputFields       : {}
+Links             : {}
+ParsedHtml        : mshtml.HTMLDocumentClass
+RawContentLength  : 97
+
